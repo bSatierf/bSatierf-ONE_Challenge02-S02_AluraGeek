@@ -1,0 +1,121 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  box-sizing: border-box;
+  background-color: var(--cor-de-fundo);
+  font-family: 'Raleway';
+  margin: 0;
+  padding: 0;
+  line-height: 1;
+}
+
+ol,
+ul,
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: var(--cor-de-link);
+}
+
+:root {
+  /*Insira a variavel das outras cores inspecionando o modelo do figma*/
+  /*Se esforce para trabalhar com variáveis, é uma dica profissional valiosa*/
+  --cor-de-fundo: #F5F5F5;
+  --cor-de-link: #000;
+  --cor-fundo-azul: #EAF2FD;
+  --cor-titulo: #464646;
+  --cor-marca: #4169E1;
+  --cor-scrollbar-bg: #CFD8DC;
+  --cor-thumb-scrollbar-bg: #90A4AE;
+}
+
+.cabecalho {
+  border: 1px solid red;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 5rem;
+
+}
+
+.logo-busca {
+  display: flex;
+  justify-content: space-between;
+  column-gap: 2em;
+  align-items: center;
+  width: 60%;
+  border: 1px solid blue;
+  padding-left: 3.5rem;
+}
+
+.busca {
+  border-radius: 50px;
+  height: 1.9rem;
+  width: 60%;
+  padding-left: .5rem;
+  border: 1px solid gainsboro;
+}
+
+.button-login {
+  background: transparent;
+  border: 1px solid var(--cor-marca);
+  padding: .8rem 2.5rem;
+  color: var(--cor-marca);
+  cursor: pointer;
+}
+
+.hero {
+  border: 1px solid yellow;
+  height: 22rem;
+  background: url(../image/banner-image.png);
+  background-size: 100vw;
+  background-repeat: no-repeat;
+}
+
+.banner {
+  width: 46.9rem;
+  height: 20rem;
+  padding-left: 10rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.banner h1 {
+  color: var(--cor-de-fundo);
+  font-size: 3.25em;
+  font-weight: 700;
+  
+  margin: 0;
+  /* border: 1px solid pink; */
+}
+
+.banner h4 {
+  color: var(--cor-de-fundo);
+  font-size: 1.3em;
+  font-weight: 700;
+}
+
+.banner button {
+  background-color: var(--cor-marca);
+  color: var(--cor-de-fundo);
+  width: 8.25rem;
+  height: 3.25;
+  padding: 1rem;
+  border: none;
+}
+
+.prod-titulo {
+  border: 1px solid red;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 10rem;
+  margin-top: 2rem;
+  font-size: 2em;
+  font-weight: 700;
+}
